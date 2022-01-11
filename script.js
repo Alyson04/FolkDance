@@ -19,7 +19,7 @@ $(function(){
 });
 
 $(function(){
-  $(".logos").attr("href","Home.html");
+  $(".logos").attr("href","index.html");
 });
 
 $(".Click").click(function(){
