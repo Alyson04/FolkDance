@@ -301,3 +301,76 @@ button:focus{
   color: orange;
   font-family: 'Arial';
 }
+.cardAbout{
+  position: absolute;
+  top: 15%;
+  left: 13.5%;
+  min-height: 550px;
+  width: 800px;
+  border-radius: 30px;
+  padding: 0 80px;
+  box-shadow: 0 15px 15px orange , 0 0 35px orange ;
+}
+.imgcardAbout{
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  min-height: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgcardAbout img{
+  position: relative;
+  left: -60%;
+  height: 200px;
+  width: 200px;
+  z-index: 2;
+  border-radius: 50%;
+  transition: all 0.5s ease-out;
+}
+.circleAbout{
+  position: absolute;
+  left: -70%;
+  width: 240px;
+  height: 240px;
+  background: linear-gradient(
+    to right,
+    orange,
+    lightyellow
+    );
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+}
+.info{
+  color: orange;
+  text-align: center;
+  width: 800px;
+  position: absolute;
+  position: -40px;
+}
+.info h1{
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 10px 20px;
+  padding: 10px 10px;
+}
+.info h3{
+  font-size: 20px;
+  text-align: center;
+  font-weight: bolder;
+}
+.about{
+  color: orange;
+  margin: 20px 20px;
+  padding-left: 20px;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  text-align: justify;
+}
+.about p{
+  line-height: 30px;
+}
