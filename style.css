@@ -1,20 +1,47 @@
 body{
   background-color: black;
 }
-#loading{
+/*#loading{
   position: fixed;
   z-index: 2;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: radial-gradient(circle,purple,black,purple,black,purple,black,purple,black,purple,black);
+  background: black;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-#loading > img{
+}*/
+/*#loading > img{
   width: 125px;
+}*/
+#loading{
+  position: fixed;
+  inset: 0;
+  background-color: black;
+  z-index: 2;
+  opacity: 1;
+  transition: opacity 500ms ease;
+}
+#loading::after{
+  content: "";
+  position: absolute;
+  inset: 41.5%;
+  left: 44.5%;
+width: 10%;
+  border-radius: 50%;
+  border: 10px solid white;
+  border-top-color: orange;
+  animation: spinner 1s linear infinite;
+}
+@keyframes spinner {
+  from{
+    transform: rotateZ(0deg);
+  }
+  to{
+    transform: rotateZ(360deg);
+  }
 }
 #loading h1{
   position: absolute;
@@ -50,6 +77,20 @@ ul li a:hover{
 ul li.active a{
   background-color: orange;
   color:#000;
+}
+.next img{
+  position: absolute;
+  max-width: 200px;
+  max-height: 100px;
+  top: 42.5%;
+  right: 1%;
+}
+.prev img{
+  position: absolute;
+  max-width: 200px;
+  max-height: 100px;
+  top: 42.5%;
+  left: 1%;
 }
 #idaw{
   position: absolute;
@@ -250,55 +291,136 @@ button:focus{
   color: black;
   font-weight: bolder;
 }
-.Click2{
+.Clicked{
   position: absolute;
   background-color: orange;
   border-radius: 30px;
-  top: 90%;
+  bottom: -50%;
   left: 15%;
   color: black;
   font-weight: bolder;
 }
-.history{
+.Clicked2{
   position: absolute;
-  top: 71%;
+  background-color: orange;
+  border-radius: 30px;
+  bottom: -50%;
   left: 15%;
+  color: black;
+  font-weight: bolder;
+}
+.Clicked3{
+  position: absolute;
+  background-color: orange;
+  border-radius: 30px;
+  bottom: -50%;
+  left: 15%;
+  color: black;
+  font-weight: bolder;
+}
+.cardIdaw{
+  position: absolute;
+  bottom: -38%;
+  left: 13.5%;
+  min-height: 550px;
+  width: 800px;
+  border-radius: 30px;
+  padding: 0 80px;
+  box-shadow: 0 15px 15px orange , 0 0 35px orange ;
+}
+.cardMag{
+  position: absolute;
+  bottom: -38%;
+  left: 13.5%;
+  min-height: 550px;
+  width: 800px;
+  border-radius: 30px;
+  padding: 0 80px;
+  box-shadow: 0 15px 15px orange , 0 0 35px orange ;
+}
+.cardSag{
+  position: absolute;
+  bottom: -38%;
+  left: 13.5%;
+  min-height: 550px;
+  width: 800px;
+  border-radius: 30px;
+  padding: 0 80px;
+  box-shadow: 0 15px 15px orange , 0 0 35px orange ;
+}
+.history{
   color: orange;
+  margin: 20px 20px;
+  padding-left: 20px;
+  position: absolute;
+  top: 10.5%;
+  left: 1%;
+  text-align: justify;
   font-family: 'Arial';
 }
 .used{
-  position: absolute;
-  bottom: -8.5%;
-  left: 15%;
   color: orange;
+  margin: 20px 20px;
+  padding-left: 20px;
+  position: absolute;
+  left: -1.5%;
+  bottom: -40.5%;
+  max-height: 550px;
+  width: 800px;
+  border-radius: 30px;
+  padding: 0px 80px;
+  text-align: justify;
+  box-shadow: 0 15px 15px orange , 0 0 35px orange ;
   font-family: 'Arial';
 }
 .history2{
-  position: absolute;
-  top: 71%;
-  left: 15%;
   color: orange;
+  margin: 20px 20px;
+  padding-left: 20px;
+  position: absolute;
+  top: 10.5%;
+  left: 1%;
+  text-align: justify;
   font-family: 'Arial';
 }
 .used2{
-  position: absolute;
-  bottom: -8.5%;
-  left: 15%;
   color: orange;
+  margin: 20px 20px;
+  padding-left: 20px;
+  position: absolute;
+  left: -1.5%;
+  bottom: -57.5%;
+  max-height: 550px;
+  width: 800px;
+  border-radius: 30px;
+  padding: 0px 80px;
+  text-align: justify;
+  box-shadow: 0 15px 15px orange , 0 0 35px orange ;
   font-family: 'Arial';
 }
 .history3{
-  position: absolute;
-  top: 71%;
-  left: 15%;
   color: orange;
+  margin: 20px 20px;
+  padding-left: 20px;
+  position: absolute;
+  top: 10.5%;
+  left: 1%;
+  text-align: justify;
   font-family: 'Arial';
 }
 .used3{
-  position: absolute;
-  bottom: -8.5%;
-  left: 15%;
   color: orange;
+  margin: 20px 20px;
+  padding-left: 20px;
+  position: absolute;
+  left: -1.5%;
+  bottom: -57.5%;
+  max-height: 550px;
+  width: 800px;
+  border-radius: 30px;
+  padding: 0px 80px;
+  text-align: justify;
+  box-shadow: 0 15px 15px orange , 0 0 35px orange ;
   font-family: 'Arial';
 }
 .cardAbout{
