@@ -7,11 +7,11 @@ setTimeout(function(){
 },2000);
 
 $(function(){
-  $(".first").attr("href","Idaw.html");
+  $(".first").attr("href","idaw.html");
 });
 
 $(function(){
-  $(".second").attr("href","Maglalatik.html");
+  $(".second").attr("href","maglalatik.html");
 });
 
 $(function(){
