@@ -19,7 +19,7 @@ $(function(){
 });
 
 $(function(){
-  $(".logos").attr("href","Home.html");
+  $(".logos").attr("href","index.html");
 });
 
 $(function(){
@@ -53,7 +53,6 @@ $(".Click").click(function(){
 
 $(".Click").click(function(){
   $(".history2").toggle();
-
 });
 
 $(".Click").click(function(){
