@@ -484,15 +484,3 @@ button:focus{
 .about p{
   line-height: 30px;
 }
-#survey{
-  z-index: 1;
-  position: absolute;
-  left: 17.5%;
-  top: 20%;
-}
-#responses{
-  color: orange;
-  position: absolute;
-  left: 24%;
-  top: 15%;
-}
