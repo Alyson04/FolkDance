@@ -46,9 +46,3 @@ $(function(){
   $(".prevButton3").attr("href", "sagayan.html")
 });
 
-$(function(){
-  $(".click").toggle(".history2")
-});
-$(function(){
-  $(".clicked").toggle(".used2")
-});
