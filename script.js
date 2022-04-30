@@ -46,3 +46,17 @@ $(function(){
   $(".prevButton3").attr("href", "sagayan.html")
 });
 
+$(".first").hide();
+$("#aw").click(function(){
+  $(".first").toggle();
+});
+
+$(".third").hide();
+$("#sa").click(function(){
+  $(".third").toggle();
+});
+
+$(".second").hide();
+$("#lat").click(function(){
+  $(".second").toggle();
+});

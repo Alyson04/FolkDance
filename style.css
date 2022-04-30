@@ -31,7 +31,7 @@ body{
 }
 #loading h1{
   position: absolute;
-  top: 33%;
+  top: 28%;
   left: 37.5%;
   font-family: 'Brush Script MT',cursive;
   font-size: 40px;
@@ -101,7 +101,7 @@ ul li.active a{
 }
 #vid{
   position: absolute;
-  top: 10%;
+  top: 14%;
   left: 14.5%;
 }
 #aw{
@@ -110,7 +110,8 @@ font-style: italic;
 font-size: 40px;
 color: orange;
 left: 12.5%;
-top: 63%
+top: 63%;
+text-decoration: underline;
 }
 #sa{
 position: absolute;
@@ -118,7 +119,8 @@ font-style: italic;
 font-size: 40px;
 color: orange;
 left: 44%;
-top: 63%
+top: 63%;
+text-decoration: underline;
 }
 #lat{
   position: absolute;
@@ -126,7 +128,8 @@ top: 63%
   font-size: 40px;
   color: orange;
   left: 78%;
-  top: 63%
+  top: 63%;
+  text-decoration: underline;
 }
 .card{
   position: absolute;
@@ -160,7 +163,7 @@ top: 63%
 }
 .card3{
   position: absolute;
-  top: 87%;
+  bottom: -100%;
   left: 20%;
   min-height: 550px;
   width: 200px;
@@ -170,7 +173,7 @@ top: 63%
 }
 .card4{
   position: absolute;
-  top: 87%;
+  bottom: -100%;
   left: 53%;
   min-height: 550px;
   width: 200px;
@@ -273,7 +276,7 @@ button:focus{
   position: absolute;
   background-color: orange;
   border-radius: 30px;
-  top: 70%;
+  top: 96%;
   left: 15%;
   color: black;
   font-weight: bolder;
@@ -282,7 +285,7 @@ button:focus{
   position: absolute;
   background-color: orange;
   border-radius: 30px;
-  bottom: -50%;
+  bottom: -110%;
   left: 15%;
   color: black;
   font-weight: bolder;
@@ -291,7 +294,7 @@ button:focus{
   position: absolute;
   background-color: orange;
   border-radius: 30px;
-  bottom: -25%;
+  bottom: -73%;
   left: 15%;
   color: black;
   font-weight: bolder;
@@ -300,14 +303,14 @@ button:focus{
   position: absolute;
   background-color: orange;
   border-radius: 30px;
-  bottom: -28.5%;
+  bottom: -73%;
   left: 15%;
   color: black;
   font-weight: bolder;
 }
 .cardIdaw{
   position: absolute;
-  bottom: -38%;
+  bottom: -90%;
   left: 13.5%;
   min-height: 550px;
   width: 800px;
@@ -317,7 +320,7 @@ button:focus{
 }
 .cardMag{
   position: absolute;
-  bottom: -23%;
+  bottom: -65%;
   left: 13.5%;
   min-height: 400px;
   width: 800px;
@@ -327,7 +330,7 @@ button:focus{
 }
 .cardSag{
   position: absolute;
-  bottom: -18%;
+  bottom: -60%;
   left: 13.5%;
   min-height: 350px;
   width: 800px;
@@ -340,7 +343,7 @@ button:focus{
   margin: 20px 20px;
   padding-left: 20px;
   position: absolute;
-  top: 30.5%;
+  top: 10.5%;
   left: 1%;
   text-align: justify;
   font-family: 'Arial';
@@ -483,4 +486,28 @@ button:focus{
 }
 .about p{
   line-height: 30px;
+}
+#luzon{
+  font-size: 25px;
+  position: absolute;
+  color: orange;
+  bottom: -48%;
+  left: 23.5%;
+  text-decoration: none;
+}
+#mindanao{
+  font-size: 25px;
+  position: absolute;
+  color: orange;
+  bottom: -95%;
+  left: 23.5%;
+  text-decoration: none;
+}
+#visayas{
+  font-size: 25px;
+  position: absolute;
+  color: orange;
+  bottom: -68%;
+  left: 23.5%;
+  text-decoration: none;
 }
